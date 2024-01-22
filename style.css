@@ -5,9 +5,6 @@ body {
 }
 .wrapper{
     margin: 0 auto;
-    background-color: aquamarine;
-    max-width: 450px;
-    /* border-radius: 20px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,4 +14,28 @@ body {
 .freecodecamp-logo {
     max-width: 362.5px;
     max-height: 30px;
+}
+
+.container {
+    border-radius: 20px;
+    padding: 20px 20px ;
+    width: 450px;
+}
+
+.palindrome-input-container {
+    background-color: white;
+    color: black;
+    box-shadow: 0 6px 6px #002ead;
+}
+
+.palindrome-defininion-container {
+    margin-top: 10px;
+    background-color: #00471b;
+}
+
+.palindrome-defininion-text {
+    text-align: center;
+    /* vertical-align: middle; */
+    font-size: 22px;
+
 }
