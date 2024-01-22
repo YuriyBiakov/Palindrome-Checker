@@ -10,7 +10,7 @@
     <div class="wrapper">
         <img class="freecodecamp-logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp Logo">
         <h1>Is it a Palindrome?</h1>
-        <div class="container palindrome-input-container">
+        <form id="input-form" class="container palindrome-input-container">
             <label for="text-input">Enter in text to check for a palindrome:</label>
             <div>
                 <input type="text" 
@@ -21,10 +21,10 @@
             </div>
             <div id="result">
                 <p>
-                    <strong id="user-input-text"></strong><span id="result"></span>
+                    <strong id="user-input-text"></strong><span id="result-text"></span>
                 </p>
             </div>
-        </div>
+        </form>
         <div class="container palindrome-defininion-container">
             <p class="palindrome-defininion-text">
                 <span role="img" aria-label="light-bulb">💡</span> A <dfn>palindrome</dfn> is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
