@@ -24,7 +24,7 @@ function getUserInputData(currentEvent){
         resultTextBlock.setAttribute('display','block');
         let cleanedString = cleanString(userInputValue);
         
-        resultText.innerText = isPalindrome(cleanedString)? ' is palindrome' : " is not a palindrome  ";
+        resultText.innerText = isPalindrome(cleanedString)? ' is a palindrome' : " is not a palindrome  ";
     }
 }
 
