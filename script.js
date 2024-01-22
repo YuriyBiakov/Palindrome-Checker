@@ -17,7 +17,6 @@ function getUserInputData(currentEvent){
         alert('Please input a value');
     } else {
         userInputValue = userInput;
-        console.log(userInputValue);
         cleanString(userInputValue);
         cleanInput();
         resultStrongText.innerText = userInputValue;
@@ -33,14 +32,12 @@ function cleanInput() {
 }
 
 function cleanString(str) {
-    console.log(str);
     const regex = /[\w]/g;
     let result = str.toString();
     result = result.match(regex);
     result = result.join('');
     result = result.replace(/[\_]/g,'');
     result = result.toLowerCase();
-    console.log('cleaned string = ' + result);
     return result;
 }
 
