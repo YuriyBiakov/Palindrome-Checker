@@ -70,8 +70,7 @@ input:focus {
 }
 
 #result{
-    display: none;
-    background-color:aqua
+    display: block;
 }
 
 
